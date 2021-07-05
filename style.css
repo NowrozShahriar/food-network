@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.flexible {
+    display: flex;
+}
+.half-width {
+    width: 40%;
+    margin: 5% auto 0;
+}
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(87, 87, 87);
+}
+p {
+    font-size: small;
+    color: rgba(87, 87, 87, 0.801);
+}
+a {
+    display: inline-block;
+    margin-top: 25px;
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 30px rgba(252, 152, 76, 0.616);
+    background-image: linear-gradient(to right, rgb(252, 152, 76), rgb(254, 73, 46));
+}
+.colored-text {
+    background: linear-gradient(to right, rgb(252, 152, 76), rgb(251, 136, 71));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.section-text {
+    position: relative;
+    top: 5%;
+}
+img {
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 10%;
+}
+#bg-img {
+    background-size: 100%;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+h2 {
+    color: rgb(103, 103, 103);
+}
+#male-img {
+    width: 70%;
+    left: 20%;
+}
+.center {
+    text-align: center;
+}
+#card-sect {
+    margin: 3% 8% 3% 3%;
+}
+.cards {
+    width: auto;
+    margin-left: 5%;
+    box-shadow: 1px 1px 30px rgba(128, 128, 128, 0.418);
+    border-radius: 30px;
+}
+.card-contents {
+    margin: 5%;
+}
+#footer {
+    padding: 3%;
+    background-color: black;
+}
+#footer p {
+    color: honeydew;
+}
