@@ -73,11 +73,11 @@ h2 {
 .card-contents {
     margin: 5%;
 }
-#footer {
+footer {
     padding: 3%;
     background-color: black;
 }
-#footer p {
+footer p {
     margin-top: 50px;
     color: honeydew;
 }
