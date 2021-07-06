@@ -18,7 +18,7 @@ p {
     font-size: small;
     color: rgba(87, 87, 87, 0.801);
 }
-a {
+.button {
     display: inline-block;
     margin-top: 25px;
     color: white;
@@ -37,7 +37,8 @@ a {
 }
 .section-text {
     position: relative;
-    top: 5%;
+    top: 3%;
+    margin-bottom: 30px;
 }
 img {
     width: 100%;
@@ -78,4 +79,32 @@ h2 {
 }
 #footer p {
     color: honeydew;
+}
+
+ul {
+    display: flex;
+    margin: 10%;
+}
+li {
+    margin-top: 40px;
+    list-style: none;
+    margin-right: 30px;
+}
+input {
+    padding: 1em 4em 1em 1em;
+    margin: 8px;
+    border: 2px solid rgb(251, 136, 71);
+    color: orange;
+    border-radius: 7px;
+    font-size: 20px;
+}
+button {
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 1em 5.7em;
+    margin: 8px;
+    margin-bottom: 50px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(252, 152, 76), rgb(254, 73, 46));
 }
